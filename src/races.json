@@ -1,0 +1,55 @@
+{
+  "Human": {
+    "Strength": 0,
+    "Dexterirty": 0,
+    "Constitution": 0,
+    "Intelligence": 0,
+    "Wisdom": 0,
+    "Charisma": 0,
+    "Wildcard": 2,
+    "Sub": {}
+  },
+
+  "Elf": {
+    "Strength": 0,
+    "Dexterirty": 2,
+    "Constitution": 0,
+    "Intelligence": 0,
+    "Wisdom": 0,
+    "Charisma": 0,
+    "Wildcard": 0,
+    "Sub": {
+      "HighElf": {
+        "Strength": 0,
+        "Dexterirty": 0,
+        "Constitution": 0,
+        "Intelligence": 1,
+        "Wisdom": 0,
+        "Charisma": 0,
+        "Wildcard": 0,
+        "Sub": {}
+      },
+      "WoodElf": {
+        "Strength": 0,
+        "Dexterirty": 0,
+        "Constitution": 0,
+        "Intelligence": 0,
+        "Wisdom": 1,
+        "Charisma": 0,
+        "Wildcard": 0,
+        "Sub": {}
+      }
+    }
+  },
+  
+  "Half-Orc": {
+    "Strength": 2,
+    "Dexterirty": 0,
+    "Constitution": 1,
+    "Intelligence": 0,
+    "Wisdom": 0,
+    "Charisma": 0,
+    "Wildcard": 0,
+    "Sub": {}
+  }
+}
